@@ -5,6 +5,10 @@ import numpy as np
 import pandas as pd
 import scanpy as sc
 
+#np.warnings is deprecated
+import warnings
+np.warnings = warnings
+
 from .._util import CapitalData
 
 
